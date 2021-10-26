@@ -14,5 +14,5 @@ const subscription = {
 };
 
 webPush.sendNotification(subscription, 'Notification envoyée depuis le serveur push node :)')
-    .then(res => console.log('ma push Notification a bien été poussée',res))
-    .catch(err => console.error());
+.then(res => console.log('ma push Notification a bien été poussée',res))
+.catch(err => console.error());
